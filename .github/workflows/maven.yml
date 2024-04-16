@@ -26,7 +26,7 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: bmsvega2k/springbootvuejs
-          tags: latest
+          tags: boot_v2
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
