@@ -10,11 +10,11 @@ create table pokemon (
 ) engine=InnoDB;
 
 create table review (
-    pokemon_id integer,
     review_id integer not null auto_increment,
     stars integer not null,
     content varchar(255),
     title varchar(255) not null,
+    pokemon_id integer,
     primary key (review_id)
 ) engine=InnoDB;
 
